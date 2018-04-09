@@ -1,6 +1,6 @@
 const path = require('path');
 
-export default () => (
+module.exports = () => (
     {
         mode: 'production',
         entry: './index.js',
@@ -10,7 +10,7 @@ export default () => (
             libraryTarget: 'umd',
             globalObject: 'this',
             // libraryExport: 'default',
-            library: 'toast'
+            library: 'Toast'
         },
         module: {
             rules: [

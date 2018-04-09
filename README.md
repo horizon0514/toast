@@ -14,7 +14,6 @@ const toast = new Toast();
 toast.info('hello world', 1500);
 
 // 加载提示
-toast.showLoading();
-toast.hideLoading();
-
+toast.loading(content, duration);
+toast.hide();
 ```

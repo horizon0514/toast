@@ -1,5 +1,5 @@
 {
-  "name": "toast",
+  "name": "toastjs",
   "version": "1.0.0",
   "description": "Toast notifications in pure javascript",
   "main": "lib/index.js",
